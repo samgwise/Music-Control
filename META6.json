@@ -1,0 +1,25 @@
+{
+  "authors" : [
+    ""
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "Time dependant control networks",
+  "license" : "Artistic-2.0",
+  "name" : "Music::Control",
+  "perl" : "6.c",
+  "provides" : {
+    "Music::Control" : "lib/Music/Control.pm6",
+    "Music::Control::Clock" : "lib/Music/Control/Clock.pm6",
+    "Music::Control::Clock::Tick" : "lib/Music/Control/Clock/Tick.pm6",
+    "Music::Control::Event" : "lib/Music/Control/Event.pm6",
+    "Music::Control::Node" : "lib/Music/Control/Node.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "git://github.com/samgwise/Music-Control.git",
+  "tags" : [ ],
+  "test-depends" : [
+    "Test::SourceFiles"
+  ],
+  "version" : "0.0.1"
+}
